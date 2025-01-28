@@ -1,0 +1,23 @@
+[
+
+	{
+		"name": "폭풍",
+		"uniques": ["[+2] Movement", "[+30]% Strength <when attacking>"],
+	},
+{
+		"name": "압도적인 힘",
+		"uniques": ["[+1] Movement", "[+10]% Strength <when attacking>"],
+	},
+{
+		"name": "강철의 심장",
+		"uniques": ["[+20]% Strength <when attacking>"
+        "[+20] HP when healing",
+        "Unit will heal every turn, even if it performs an action",]
+	},
+{
+		"name": "자아를 가진 기계",
+		"uniques": ["[+10]% Strength <when attacking>",
+        "All adjacent units heal [+10] HP when healing",
+        "May heal outside of friendly territory",],
+	},
+]

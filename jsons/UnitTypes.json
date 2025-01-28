@@ -1,0 +1,12 @@
+[
+
+    {
+        "name": "카나데",
+        "movementType": "Land"
+    },
+    {
+        "name": "보행병기",
+        "movementType": "Land"
+    },
+    
+]

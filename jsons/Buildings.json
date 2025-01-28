@@ -1,0 +1,41 @@
+
+[
+{
+        "name": "복마전 작전실",
+        "uniqueTo": "복마전",
+        "replaces": "Palace",
+        "isNationalWonder": true,
+        "production": 15,
+        "science": 6,
+        "gold": 3,
+        "culture": 1,
+        "cityStrength": 2,
+        "percentStatBonus": {"production": 10},
+        "greatPersonPoints": {"Great Scientist": 1},
+        "cost": 0,
+        "uniques": [
+            "Indicates the capital city",
+            "Destroyed when the city is captured",
+            "Cannot build [Great Prophet] units",
+            "[+50]% Production when constructing [전차] units [in this city]",
+        ],
+        "quote": "시체⋯⋯아니, 부상자는 어디에 있습니까?"
+    },
+{
+        "name": "카나데의 공정실",
+        "replaces": "Workshop",
+        "uniqueTo": "복마전",
+        "cost" : 220,
+        "production":8,
+        "hurryCostModifier": 25,
+        "maintenance": 1,
+        "percentStatBonus": {"production": 20},
+        "uniques": [
+            "Destroyed when the city is captured",
+            "[+30]% Production when constructing [전차] units [in this city]",
+            "[+2 Gold] from [Coal] tiles [in this city]",
+            "[+2 Production] from [Coal] tiles [in this city]",
+            "New [전차] units start with [60] Experience [in this city]",
+        ],
+    },
+]

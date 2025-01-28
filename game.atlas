@@ -1,0 +1,61 @@
+복마전.png
+size: 500, 1000
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+LeaderIcons/유우키 카나데
+  rotate: false
+  xy: 0, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/유우키 카나데
+  rotate: false
+  xy: 0, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/VI 포르쉐
+  rotate: false
+  xy: 500, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/VI 헨셸 
+  rotate: false
+  xy: 0, 1000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+UnitIcons/V 판터
+  rotate: false
+  xy: 0, 1500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+NationIcons/복마전
+  rotate: false
+  xy: 0, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+BuildingIcons/복마전 작전실
+  rotate: false
+  xy: 500, 0
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+BuildingIcons/카나데의 공정실
+  rotate: false
+  xy: 500, 500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1

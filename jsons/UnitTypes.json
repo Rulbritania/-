@@ -8,5 +8,12 @@
         "name": "보행병기",
         "movementType": "Land"
     },
-    
-]
+    {
+        "name": "VI 헨셸",
+        "movementType": "Land"
+    },
+    {
+        "name": "VI 포르쉐",
+        "movementType": "Land"
+    },
+]   

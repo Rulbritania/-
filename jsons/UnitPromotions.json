@@ -16,8 +16,17 @@
 	},
 {
 		"name": "자아를 가진 기계",
-		"uniques": ["[+10]% Strength <when attacking>",
-        "All adjacent units heal [+10] HP when healing",
-        "May heal outside of friendly territory",],
+		"uniques": [
+        "All adjacent units heal [+10] HP when healing",],
+	},
+    {
+		"name": "VI",
+		"uniques": ["May Paradrop up to [9] tiles from inside friendly territory"],
+		"unitTypes": ["VI 헨셸"]
+	},
+    {
+		"name": "심판의 망치",
+		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+1] Range"],
+		"unitTypes": ["VI 포르쉐"]
 	},
 ]

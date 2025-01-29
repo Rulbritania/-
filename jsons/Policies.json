@@ -23,11 +23,50 @@
 				"column": 1
 			},
 			{
-				"name": "대충 어딘가 연락",
+				"name": "외교 노선 제시",
 				"uniques": ["Provides the cheapest [Culture] building in your first [4] cities for free"]
 				"row": 1,
 				"column": 7
 			},
+            {
+				"name": "만마전과 교섭",
+				"uniques": [
+							"[+4 Science, +2 Culture] from every [훈련실]",
+                            "Only available <before adopting [비동맹 노선]>"],
+				"requires": ["외교 노선 제시"],
+				"row": 2,
+				"column": 5
+			},
+            {
+				"name": "정보부와 교섭",
+				"uniques": [
+							"[+4 Science] from every [훈련실]",
+                            "[+10]% [Science] <in cities with a [민수 공장]>",
+                            "Only available <before adopting [게헨나 패권 쟁취]>"],
+				"requires": ["만마전과 교섭"],
+				"row": 3,
+				"column": 5
+			},
+            {
+				"name": "비동맹 노선",
+				"uniques": [
+							"[+4 Science] from every [훈련실]",
+                            "[+10]% [Gold] <in cities with a [민수 공장]>",
+                            "Only available <before adopting [만마전과 교섭]>"],
+				"requires": ["외교 노선 제시"],
+				"row": 2,
+				"column": 7
+			},
+            {
+				"name": "게헨나 패권 쟁취",
+				"uniques": [
+							"[+4 Gold] from every [훈련실]",
+                            "[+10]% [Gold] <in cities with a [민수 공장]>",
+                            "Only available <before adopting [정보부와 교섭]>"],
+				"requires": ["비동맹 노선"],
+				"row": 3,
+				"column": 7
+			}
 			{
 				"name": "기계화",
 				"uniques": ["[+20]% Production when constructing [보행병기] units [in this city]"]
@@ -57,8 +96,17 @@
 				"name": "요새화",
 				"uniques": ["[+15]% Strength <when defending>",
 							"[+2 Food] [in capital]"],
-				"requires": ["기계화"],
+				"requires": ["복마전 군사교리"],
 				"row": 2,
+				"column": 3
+			},
+            {
+				"name": "강철의 힘",
+				"uniques": ["[+10]% Strength <when defending>",
+							"[+2 Production] [in all cities]", 
+                            "[+2 Science] [in all cities]"],
+				"requires": ["요새화"],
+				"row": 3,
 				"column": 3
 			},
 			{
@@ -86,10 +134,19 @@
 				"row": 3,
 				"column": 10
 			},
+            {
+				"name": "새로운 뇌제",
+				"uniques": ["[+30]% Production when constructing [Military] units [in this city]",
+							"[+3 Happiness] [in all cities]", 
+                            "[+3 Science] [in all cities]"],
+				"requires": ["하나의 지도자"],
+				"row": 4,
+				"column": 11
+			},
 			{
 				"name": "복마전 Complete",
 				"uniques": ["[+15]% growth [in all cities]"]
 			}
 		]
 	},
-]    
+]     

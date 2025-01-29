@@ -12,7 +12,7 @@
             "Never appears as a Barbarian unit",
             "[+2] Sight",
             "Uncapturable",
-            "[+30]% Strength bonus for [전차] units within [2] tiles",
+            "[+10]% Strength bonus for [보행병기] units within [2] tiles",
             "All adjacent units heal [+20] HP when healing",
             "[+20] HP when healing"
         ],
@@ -100,7 +100,7 @@
 {
         "name": "VI 헨셸",
         "uniqueTo": "복마전",
-        "unitType": "보행병기",
+        "unitType": "VI 헨셸",
         "movement": 4,
         "strength": 600,
         "cost": 2550,
@@ -120,7 +120,7 @@
 {
         "name": "VI 포르쉐",
         "uniqueTo": "복마전",
-        "unitType": "보행병기",
+        "unitType": "VI 포르쉐",
         "movement": 3,
         "strength": 300,
         "rangedStrength": 300,
@@ -140,4 +140,4 @@
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
     },
-    ]
+]

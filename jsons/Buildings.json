@@ -32,7 +32,8 @@
         "percentStatBonus": {"production": 20},
         "uniques": [
             "Destroyed when the city is captured",
-            "[+10]% Production when constructing [보행병기] units [in this city]",
+            "[+20]% Production when constructing [보행병기] units [in this city]",
+            "[+20]% Production when constructing [전차] units [in this city]",
             "[+2 Gold] from [Coal] tiles [in this city]",
             "[+2 Production] from [Coal] tiles [in this city]",
             "New [보행병기] units start with [60] Experience [in this city]",

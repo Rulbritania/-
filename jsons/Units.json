@@ -23,6 +23,26 @@
 		]
 	},
     {
+        "name": "원시 보행병기",
+        "uniqueTo": "복마전",
+        "unitType": "보행병기",
+        "replaces": "장갑차",
+        "movement": 3,
+        "strength": 40,
+        "cost": 280,
+        "requiredTech": "내연 기관",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[+20]% Strength bonus for [Land] units within [1] tiles"
+            "[-20]% Strength <vs cities> <when attacking>",
+            "[-30]% Strength <vs [전차] units>",
+        ],
+        "attackSound": "tankshot"
+    },
+    {
         "name": "II",
         "uniqueTo": "복마전",
         "unitType": "보행병기",

@@ -30,6 +30,8 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "복마전 결전준비",
 		"uniques": ["[+3 Production] [in all cities]",
+        "[+3 Science] [in all cities]",
+        "[+2 Culture] [in all cities]",
         "[+10]% Production when constructing [보행병기] units [in this city]",
         "[-50]% Unhappiness from [Population] [in all cities]", 
         "[보행병기] units gain the [폭풍] promotion",

@@ -14,6 +14,58 @@
         "[+20] HP when healing",
         "Unit will heal every turn, even if it performs an action",]
 	},
+        {
+		"name": "포 강화",
+		"uniques": ["[+10]% Strength <when attacking>"],
+		"unitTypes": ["보행병기"]
+	},
+        {
+		"name": "5인치 포",
+        "prerequisites": ["포 강화"],
+		"uniques": ["[+10]% Strength <when attacking>"],
+		"unitTypes": ["보행병기"]
+	},
+        {
+		"name": "7인치 포",
+        "prerequisites": ["5인치 포"],
+		"uniques": ["[+10]% Strength <when attacking>"],
+		"unitTypes": ["보행병기"]
+	},
+{
+        "name": "장갑",
+        "uniques": ["[+20]% Strength<when defending>"],
+        "unitTypes": ["보행병기"]
+    },
+    {
+        "name": "경사 장갑",
+        "prerequisites": ["장갑"],
+        "uniques": ["[+20]% Strength<when defending>",
+        "Only available <for units without [직사 장갑]>"],
+        "unitTypes": ["보행병기"]
+    },
+    {
+        "name": "증가 장갑",
+        "prerequisites": ["경사 장갑"],
+        "uniques": ["[+20]% Strength<when defending>",
+        "Only available <for units without [직사 장갑]>"],
+        "unitTypes": ["보행병기"]
+    },
+    {
+        "name": "직사 장갑",
+        "prerequisites": ["장갑"],
+        "uniques": ["[+10]% Strength<when defending>",
+        "[+10]% Strength<when attacking>",
+        "Only available <for units without [경사 장갑]>",]
+        "unitTypes": ["보행병기"]
+    },
+    {
+        "name": "공간 장갑",
+        "prerequisites": ["직사 장갑"],
+        "uniques": ["[+10]% Strength<when defending>",
+        "[+10]% Strength<when attacking>",
+        "Only available <for units without [경사 장갑]>"],
+        "unitTypes": ["보행병기"]
+    },
 {
 		"name": "자아를 가진 기계",
 		"uniques": [

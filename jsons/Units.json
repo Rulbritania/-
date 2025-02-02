@@ -161,10 +161,10 @@
         "attackSound": "tankshot"
     },
 {
-        "name": "X 샤른호르트",
+        "name": "라테",
         "uniqueTo": "복마전",
         "unitType": "VI 포르쉐",
-        "movement": 3,
+        "movement": 2,
         "strength": 600,
         "cost": 5000,
         "requiredTech": "광자포",

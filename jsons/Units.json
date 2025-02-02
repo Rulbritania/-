@@ -125,14 +125,14 @@
         "strength": 600,
         "cost": 2550,
         "requiredTech": "핵융합 동력",
-        "requiredResource": "Oil",
         "uniques": [
         "Limited to [1] per Civilization", 
             "Can move after attacking",
             "No defensive terrain bonus",
             "[+20]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+10]% Strength <when attacking>"
+            "[+10]% Strength <when attacking>",
+            "Consumes [2] [Uranium]",
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -147,7 +147,6 @@
         "range": 3,
         "cost": 3000,
         "requiredTech": "레일건",
-        "requiredResource": "Oil",
         "uniques": [
         "Limited to [1] per Civilization", 
             "Can move after attacking",
@@ -156,6 +155,29 @@
             "Never appears as a Barbarian unit",
             "[+10]% Strength <when attacking>",
             "[+100]% Strength <vs cities> <when attacking>",
+            "Consumes [2] [Uranium]",
+        ],
+        "promotions":["자아를 가진 기계"],
+        "attackSound": "tankshot"
+    },
+{
+        "name": "X 샤른호르트",
+        "uniqueTo": "복마전",
+        "unitType": "VI 포르쉐",
+        "movement": 3,
+        "strength": 600,
+        "cost": 5000,
+        "requiredTech": "광자포",
+        "requiredResource": "Uranium",
+        "uniques": [
+            "Consumes [2] [Uranium]",
+            "Cannot be purchased"
+            "Limited to [1] per Civilization", 
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[+50]% Strength <vs [Land] units>",
+            "Never appears as a Barbarian unit",
+            "[+30]% Strength <when attacking>",
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"

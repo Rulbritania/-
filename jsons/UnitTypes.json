@@ -16,4 +16,9 @@
         "name": "VI 포르쉐",
         "movementType": "Land"
     },
+    {
+        "name": "비행",
+        "movementType": "Air",
+        "uniques": ["Aircraft","[+50]% Strength <vs [보행병기] units> <when attacking>"]
+    }
 ]   

@@ -72,3 +72,10 @@ TileSets/FantasyHex/Units/VI 포르쉐
   orig: 250, 250
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/유우키 카나데
+  rotate: false
+  xy: 250, 0
+  size: 250, 250
+  orig: 250, 250
+  offset: 0, 0
+  index: -1

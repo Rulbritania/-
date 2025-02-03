@@ -61,7 +61,7 @@ BuildingIcons/카나데의 공정실
   index: -1
   
 유닛.png
-size: 500, 250
+size: 250, 250
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none

@@ -66,6 +66,76 @@ BuildingIcons/카나데의 공정실
   orig: 500, 500
   offset: 0, 0
   index: -1
+PolicyIcons/스카나데니아-바비스
+  rotate: false
+  xy: 0, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카나데니아-바비스 I
+  rotate: false
+  xy: 500, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카나데니아-바비스 II
+  rotate: false
+  xy: 0, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카나데니아-바비스 III
+  rotate: false
+  xy: 500, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/스카나데니아-바비스 IV
+  rotate: false
+  xy: 0, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/카데르마키
+  rotate: false
+  xy: 500, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/카데르마키 I
+  rotate: false
+  xy: 500, 2000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/카데르마키 II
+  rotate: false
+  xy: 0, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/카데르마키 III
+  rotate: false
+  xy: 500, 2500
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
+PolicyIcons/카데르마키 IV
+  rotate: false
+  xy: 0, 3000
+  size: 500, 500
+  orig: 500, 500
+  offset: 0, 0
+  index: -1
   
 유닛.png
 size: 250, 250

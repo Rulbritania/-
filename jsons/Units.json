@@ -72,9 +72,9 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+30]% Strength <vs [Land] units>",
+            "[+40]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+10]% Strength <when attacking>"
+            "[+30]% Strength <when attacking>"
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -84,16 +84,18 @@
         "uniqueTo": "복마전",
         "unitType": "보행병기",
         "movement": 6,
-        "strength": 90,
-        "cost": 700,
+        "strength": 100,
+        "cost": 900,
         "requiredTech": "현대 전차",
         "requiredResource": "Oil",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+30]% Strength <vs [Land] units>",
+            "[+50]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+10]% Strength <when attacking>"
+            "[+20]% Strength <when attacking>",
+            "Consumes [2] [Oil]",
+            "[-20]% Strength <vs [비행] units> <when defending>"
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -165,8 +167,8 @@
         "uniqueTo": "복마전",
         "unitType": "VI 포르쉐",
         "movement": 2,
-        "strength": 600,
-        "cost": 5000,
+        "strength": 900,
+        "cost": 15000,
         "requiredTech": "광자포",
         "requiredResource": "Uranium",
         "uniques": [

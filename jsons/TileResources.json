@@ -1,0 +1,44 @@
+[
+    {
+		"name": "헨셸 핵융합 엔진",
+		"resourceType": "Luxury",
+		"uniques": [
+			"Not shown on world screen",
+            "[+2] Movement <for [VI 헨셸] units>",
+            "[+10] HP when healing <for [VI 헨셸] units>",
+			"Excluded from map editor",
+            "[-5 Gold]"
+		]
+	},
+    {
+		"name": "헨셸 가솔린 엔진",
+		"resourceType": "Luxury",
+		"uniques": [
+			"Not shown on world screen",
+            "[+1] Movement <for [VI 헨셸] units>",
+			"Excluded from map editor",
+            "[-1 Gold]"
+		]
+	},
+    {
+		"name": "헨셸 디젤 엔진",
+		"resourceType": "Luxury",
+		"uniques": [
+			"Not shown on world screen",
+            "[+2] Movement <for [VI 헨셸] units>",
+			"Excluded from map editor",
+            "[-2 Gold]"
+		]
+	},
+    {
+		"name": "헨셸 원자력 엔진",
+		"resourceType": "Luxury",
+		"uniques": [
+            "[-3 Gold]",
+			"Not shown on world screen",
+            "[+1] Movement <for [VI 헨셸] units>",
+            "[+10] HP when healing <for [VI 헨셸] units>",
+			"Excluded from map editor"
+		]
+	},
+]

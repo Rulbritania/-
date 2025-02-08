@@ -1,0 +1,523 @@
+[
+        {
+                "name": "헨셸-엔진",
+                "text": "헨셸 설계",
+                "uniques": [
+           //"Only available <when number of [turns] is greater than [5]>",
+           "unavailable <if [엔진] is constructed>",
+        ],
+                "civilopediaText":[
+            {"extraImage":"엔진", "imageSize":410},
+			{"text":"헨셸 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+           // {"extraImage":"동력원 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"동력원에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "핵융합 엔진",
+                                "uniques": [
+                                "Comment [이동력 2, 매턴 추가회복 10을 제공합니다.]",
+                                "Comment [우라늄 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [엔진;핵융합] [in capital] <hidden from users>"
+                                //"Consumes [2] [uranium]"
+                                ]
+                        },
+                        {
+                                "text": "가솔린 엔진",
+                                "uniques": [
+                                "Comment [이동력 1을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:1 골드]",
+                                "Gain a free [엔진;가솔린] [in capital] <hidden from users>"
+                                //"Consumes [1] [Oil]"
+                                ]
+                        }
+                        {
+                                "text": "디젤 엔진",
+                                "uniques": [
+                                "Comment [이동력 2을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:2 골드]",
+                                "Gain a free [엔진;디젤] [in capital] <hidden from users>"
+                                //"Consumes [2] [Oil]"
+                                ]
+                        },
+                        {
+                                "text": "원자력 엔진",
+                                "uniques": [
+                                "Comment [이동력 1, 매턴 추가회복 10을 제공합니다.]",
+                                "Comment [우라늄 1개를 소모합니다.]",
+                                "Comment [유지비:2 골드]",
+                                "Gain a free [엔진;원자력] [in capital] <hidden from users>"
+                               // "Consumes [1] [uranium]"
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "헨셸-무기",
+                "text": "헨셸 무기 설계",
+                
+                
+                "civilopediaText":[
+                {"extraImage":"무기", "imageSize":410},
+			{"text":"헨셸 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"무기 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"무기에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "레일건",
+                                "uniques": [
+                                "Comment [공격력 20% 방어력 -10%를 제공합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [무기;레일건] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "기관포",
+                                "uniques": [
+                                "Comment [공격력 -30% 두번 공격 가능합니다.]",
+                                "Comment [유지비:0 골드]",
+                                "Gain a free [무기;기관포] [in all cities] <hidden from users>",
+                                ]
+                        }
+                        {
+                                "text": "16인치 함포",
+                                "uniques": [
+                                "Comment [공격력 40% 방어력 -20%를 제공합니다.]",
+                                "Comment [이동력이 2 저하됩니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [무기;함포] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "미사일",
+                                "uniques": [
+                                "Comment [공격력 10%를 제공합니다.]",
+                                "Comment [대전차 공격력 20%를 제공합니다.]",
+                                "Comment [도시 상대 공격력 30%를 제공합니다.]",
+                                "Comment [유지비:2 골드]",
+                                "Gain a free [무기;미사일] [in all cities] <hidden from users>",
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "헨셸-장갑",
+                "text": "헨셸 설계",
+                
+                
+                "civilopediaText":[
+                {"extraImage":"장갑", "imageSize":410},
+			{"text":"헨셸 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"장갑 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"장갑에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "경사 장갑",
+                                "uniques": [
+                                "Comment [방어력 20%를 제공합니다.]",
+                                "Comment [찰 2개를 소모합니다.]",
+                                "Comment [유지비:1 골드]",
+                                "Gain a free [장갑:경사] [in all cities] <hidden from users>",
+                                //"Instantly consumes [2] [Iron]"
+                                ]
+                        },
+                        {
+                                "text": "직사 장갑",
+                                "uniques": [
+                                "Comment [공격력 10%, 방어력 10%를 제공합니다.]",
+                                "Comment [알루미늄 2개를 소모합니다.]",
+                                "Comment [유지비:0 골드]",
+                                "Gain a free [장갑:직사] [in all cities] <hidden from users>",
+                                //"Instantly consumes [2] [Aluminum]"
+                                ]
+                        }
+                        {
+                                "text": "반응 장갑",
+                                "uniques": [
+                                "Comment [방어력 30%를 제공합니다.]",
+                                "Comment [철 4개를 소모합니다.]",
+                                "Comment [유지비:4 골드]",
+                                "Gain a free [장갑:반응] [in all cities] <hidden from users>",
+                               // "Instantly consumes [6] [Iron]"
+                               ]
+                        },
+                        {
+                                "text": "알루미늄 합금 장갑",
+                                "uniques": [
+                                "Comment [알루미늄 4개를 소모합니다.]",
+                                "Comment [공격력 20% 방어력 20%를 제공합니다.]",
+                                "Comment [유지비:4 골드]",
+                                "Gain a free [장갑:알루미늄] [in all cities] <hidden from users>",
+                                //"Instantly consumes [5] [Aluminum]"
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "포르쉐-엔진",
+                "text": "포르쉐 설계",
+                "civilopediaText":[
+            {"extraImage":"엔진", "imageSize":410},
+			{"text":"포르쉐 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+           // {"extraImage":"동력원 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"동력원에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "핵융합 엔진",
+                                "uniques": [
+                                "Comment [이동력 2, 매턴 추가회복 10을 제공합니다.]",
+                                "Comment [우라늄 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [엔진;핵융합;포르쉐] [in capital] <hidden from users>"
+                                //"Consumes [2] [uranium]"
+                                ]
+                        },
+                        {
+                                "text": "가솔린 엔진",
+                                "uniques": [
+                                "Comment [이동력 1을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:1 골드]",
+                                "Gain a free [엔진;가솔린;포르쉐] [in capital] <hidden from users>"
+                                //"Consumes [1] [Oil]"
+                                ]
+                        }
+                        {
+                                "text": "디젤 엔진",
+                                "uniques": [
+                                "Comment [이동력 2을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:2 골드]",
+                                "Gain a free [엔진;디젤;포르쉐] [in capital] <hidden from users>"
+                                //"Consumes [2] [Oil]"
+                                ]
+                        },
+                        {
+                                "text": "원자력 엔진",
+                                "uniques": [
+                                "Comment [이동력 1, 매턴 추가회복 10을 제공합니다.]",
+                                "Comment [우라늄 1개를 소모합니다.]",
+                                "Comment [유지비:2 골드]",
+                                "Gain a free [엔진;원자력;포르쉐] [in capital] <hidden from users>"
+                               // "Consumes [1] [uranium]"
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "포르쉐-무기",
+                "text": "포르쉐 무기 설계",
+                
+                
+                "civilopediaText":[
+                {"extraImage":"무기", "imageSize":410},
+			{"text":"포르쉐 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"무기 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"무기에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "레일건",
+                                "uniques": [
+                                "Comment [사거리:2]",
+                                "Comment [공격력 20% 방어력 -10%를 제공합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [무기;레일건;포르쉐] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "기관포",
+                                "uniques": [
+                                "Comment [사거리:2]",
+                                "Comment [공격력 -30%, 두번 공격 가능합니다.]",
+                                "Comment [유지비:0 골드]",
+                                "Gain a free [무기;기관포;포르쉐] [in all cities] <hidden from users>",
+                                ]
+                        }
+                        {
+                                "text": "19인치 함포",
+                                "uniques": [
+                                "Comment [사거리:3]",
+                                "Comment [공격력 10%를 제공합니다]",
+                                "Comment [이동력이 2 저하됩니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [무기;함포;포르쉐] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "레이더 병기",
+                                "uniques": [
+                                "Comment [사거리:5]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [무기;함포;포르쉐] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "미사일",
+                                "uniques": [
+                                "Comment [사거리:2]",
+                                "Comment [공격력 10%를 제공합니다.]",
+                                "Comment [대전차 공격력 20%를 제공합니다.]",
+                                "Comment [도시 상대 공격력 30%를 제공합니다.]",
+                                "Comment [유지비:2 골드]",
+                                "Gain a free [무기;미사일;포르쉐] [in all cities] <hidden from users>",
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "포르쉐-장갑",
+                "text": "포르쉐 설계",
+                
+                
+                "civilopediaText":[
+                {"extraImage":"장갑", "imageSize":410},
+			{"text":"포르쉐 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"장갑 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"장갑에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "경사 장갑",
+                                "uniques": [
+                                "Comment [방어력 20%를 제공합니다.]",
+                                "Comment [찰 2개를 소모합니다.]",
+                                "Comment [유지비:1 골드]",
+                                "Gain a free [장갑:경사;포르쉐] [in all cities] <hidden from users>",
+                                //"Instantly consumes [2] [Iron]"
+                                ]
+                        },
+                        {
+                                "text": "직사 장갑",
+                                "uniques": [
+                                "Comment [공격력 10%, 방어력 10%를 제공합니다.]",
+                                "Comment [알루미늄 2개를 소모합니다.]",
+                                "Comment [유지비:0 골드]",
+                                "Gain a free [장갑:직사;포르쉐] [in all cities] <hidden from users>",
+                                //"Instantly consumes [2] [Aluminum]"
+                                ]
+                        }
+                        {
+                                "text": "반응 장갑",
+                                "uniques": [
+                                "Comment [방어력 30%를 제공합니다.]",
+                                "Comment [철 4개를 소모합니다.]",
+                                "Comment [유지비:4 골드]",
+                                "Gain a free [장갑:반응;포르쉐] [in all cities] <hidden from users>",
+                               // "Instantly consumes [6] [Iron]"
+                               ]
+                        },
+                        {
+                                "text": "알루미늄 합금 장갑",
+                                "uniques": [
+                                "Comment [알루미늄 4개를 소모합니다.]",
+                                "Comment [공격력 20% 방어력 20%를 제공합니다.]",
+                                "Comment [유지비:4 골드]",
+                                "Gain a free [장갑:알루미늄;포르쉐] [in all cities] <hidden from users>",
+                                //"Instantly consumes [5] [Aluminum]"
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "라테-엔진",
+                "text": "라테 설계",
+                "uniques": [
+           //"Only available <when number of [turns] is greater than [5]>",
+           "unavailable <if [엔진] is constructed>",
+        ],
+                "civilopediaText":[
+            {"extraImage":"엔진", "imageSize":410},
+			{"text":"라테 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+           // {"extraImage":"동력원 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"동력원에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "4중 핵융합 엔진",
+                                "uniques": [
+                                "Comment [이동력 2, 매턴 추가회복 10을 제공합니다.]",
+                                "Comment [우라늄 2개를 소모합니다.]",
+                                "Comment [유지비:7 골드]",
+                                "Gain a free [엔진;핵융합;라테] [in capital] <hidden from users>"
+                                //"Consumes [2] [uranium]"
+                                ]
+                        },
+                        {
+                                "text": "대형 가솔린 엔진",
+                                "uniques": [
+                                "Comment [이동력 1을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [엔진;가솔린;라테] [in capital] <hidden from users>"
+                                //"Consumes [1] [Oil]"
+                                ]
+                        }
+                        {
+                                "text": "회전 디젤 엔진",
+                                "uniques": [
+                                "Comment [이동력 2을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:5 골드]",
+                                "Gain a free [엔진;디젤;라테] [in capital] <hidden from users>"
+                                //"Consumes [2] [Oil]"
+                                ]
+                        },
+                        {
+                                "text": "8중 원자력 엔진",
+                                "uniques": [
+                                "Comment [이동력 1, 매턴 추가회복 10을 제공합니다.]",
+                                "Comment [우라늄 1개를 소모합니다.]",
+                                "Comment [유지비:5 골드]",
+                                "Gain a free [엔진;원자력;라테] [in capital] <hidden from users>"
+                               // "Consumes [1] [uranium]"
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "라테-무기",
+                "text": "라테 무기 설계",
+                
+                
+                "civilopediaText":[
+                {"extraImage":"무기", "imageSize":410},
+			{"text":"라테 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"무기 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"무기에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "레일건",
+                                "uniques": [
+                                "Comment [공격력 20% 방어력 -10%를 제공합니다.]",
+                                "Comment [유지비:5 골드]",
+                                "Gain a free [무기;레일건;라테] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "기관포",
+                                "uniques": [
+                                "Comment [공격력 -30% 두번 공격 가능합니다.]",
+                                "Comment [유지비:0 골드]",
+                                "Gain a free [무기;기관포;라테] [in all cities] <hidden from users>",
+                                ]
+                        }
+                        {
+                                "text": "31인치 함포",
+                                "uniques": [
+                                "Comment [공격력 40% 방어력 -20%를 제공합니다.]",
+                                "Comment [이동력이 2 저하됩니다.]",
+                                "Comment [유지비:5 골드]",
+                                "Gain a free [무기;함포;라테] [in all cities] <hidden from users>",
+                                ]
+                        },
+                        {
+                                "text": "미사일",
+                                "uniques": [
+                                "Comment [공격력 10%를 제공합니다.]",
+                                "Comment [대전차 공격력 20%를 제공합니다.]",
+                                "Comment [도시 상대 공격력 30%를 제공합니다.]",
+                                "Comment [유지비:4 골드]",
+                                "Gain a free [무기;미사일;라테] [in all cities] <hidden from users>",
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "라테-장갑",
+                "text": "라테 설계",
+                
+                
+                "civilopediaText":[
+                {"extraImage":"장갑", "imageSize":410},
+			{"text":"라테 설계를 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+            {"extraImage":"장갑 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"장갑에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "경사 장갑",
+                                "uniques": [
+                                "Comment [방어력 20%를 제공합니다.]",
+                                "Comment [찰 2개를 소모합니다.]",
+                                "Comment [유지비:1 골드]",
+                                "Gain a free [장갑:경사;라테] [in all cities] <hidden from users>",
+                                //"Instantly consumes [2] [Iron]"
+                                ]
+                        },
+                        {
+                                "text": "직사 장갑",
+                                "uniques": [
+                                "Comment [공격력 10%, 방어력 10%를 제공합니다.]",
+                                "Comment [알루미늄 2개를 소모합니다.]",
+                                "Comment [유지비:0 골드]",
+                                "Gain a free [장갑:직사;라테] [in all cities] <hidden from users>",
+                                //"Instantly consumes [2] [Aluminum]"
+                                ]
+                        }
+                        {
+                                "text": "반응 장갑",
+                                "uniques": [
+                                "Comment [방어력 30%를 제공합니다.]",
+                                "Comment [철 4개를 소모합니다.]",
+                                "Comment [유지비:5 골드]",
+                                "Gain a free [장갑:반응;라테] [in all cities] <hidden from users>",
+                               // "Instantly consumes [6] [Iron]"
+                               ]
+                        },
+                        {
+                                "text": "알루미늄 합금 장갑",
+                                "uniques": [
+                                "Comment [알루미늄 4개를 소모합니다.]",
+                                "Comment [공격력 20% 방어력 20%를 제공합니다.]",
+                                "Comment [유지비:6 골드]",
+                                "Gain a free [장갑:알루미늄;라테] [in all cities] <hidden from users>",
+                                //"Instantly consumes [5] [Aluminum]"
+                                ]
+                        },
+                ]
+        },
+]

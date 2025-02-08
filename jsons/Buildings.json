@@ -39,4 +39,442 @@
             "New [보행병기] units start with [60] Experience [in this city]",
         ],
     },
+    {
+                "name": "보행병기 결전 연구소",
+                "uniqueTo": "복마전",
+                "cost": 500,
+                "requiredTech": "진공관",
+                "maintenance": 3,
+                "uniques": [
+                "Comment [복마전 결전병기에 대한 연구소. 3개까지 설립 가능]",
+                "Limited to [3] per Civilization",
+                
+                ]
+        },
+        //        "requiredBuilding": "전자제품 연구소",
+        {
+                "name": "헨셸 설계",
+                "cost": 200,
+                "requiredTech": "핵융합 동력",
+                "requiredBuilding": "보행병기 결전 연구소",
+                "uniques": [
+                "Comment [핵융합 동력으로 움직이는 대결전병기, VI 헨셸 설계를 시작합니다.]",
+                "Blueprints"]
+        },
+        {
+                "name": "헨셸 동력 설정",
+                "cost": 100,
+                "requiredTech": "핵융합 동력",
+                "requiredBuilding": "헨셸 설계",
+                "uniques": [
+                "Triggers a [헨셸-엔진] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "엔진;핵융합",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [VI 헨셸] units [in this city] receive the [핵융합 동력] promotion",
+                "Unbuildable",
+                "Provides [-2] [Uranium]",
+                "Unsellable","엔진"]
+        },
+        {
+                "name": "엔진;가솔린",
+                "cost": 1
+                "gold": -1,
+                "uniques": [
+                "All newly-trained [VI 헨셸] units [in this city] receive the [가솔린 동력] promotion",
+                "Unbuildable","Unsellable","엔진"
+                "Provides [-1] [Oil]",]
+        },
+        {
+                "name": "엔진;디젤",
+                "cost": 1
+                "gold": -2,
+                "uniques": [
+                "All newly-trained [VI 헨셸] units [in this city] receive the [디젤 동력] promotion",
+                "Unbuildable","Unsellable","엔진",
+                "Provides [-2] [Oil]",]
+        },
+        {
+                "name": "엔진;원자력",
+                "cost": 1
+                "gold": -2,
+                "uniques": [
+                "All newly-trained [VI 헨셸] units [in this city] receive the [원자력 동력] promotion",
+                "Unbuildable","Unsellable","엔진",
+                "Provides [-1] [Uranium]",]
+        },
+        {
+                "name": "헨셸 무기 설정",
+                "cost": 100,
+                "requiredTech": "핵융합 동력",
+                "requiredBuilding": "헨셸 설계",
+                "uniques": [
+                "Triggers a [헨셸-무기] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "무기;레일건",
+                "cost": 1
+                "gold": -3,
+                "uniques": ["All newly-trained [VI 헨셸] units [in this city] receive the [레일건] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;기관포",
+                "cost": 1
+                "uniques": ["All newly-trained [VI 헨셸] units [in this city] receive the [기관포] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;함포",
+                "cost": 1
+                "gold": -3,
+                "uniques": ["All newly-trained [VI 헨셸] units [in this city] receive the [함포] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;미사일",
+                "cost": 1
+                "gold": -2,
+                "uniques": ["All newly-trained [VI 헨셸] units [in this city] receive the [미사일] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "헨셸 장갑 설정",
+                "cost": 100,
+                "requiredTech": "핵융합 동력",
+                "requiredBuilding": "헨셸 설계",
+                "uniques": [
+                "Triggers a [헨셸-장갑] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "장갑:경사",
+                "cost": 1
+                "gold": -1,
+                "uniques": [
+                "Provides [-2] [Iron]",
+                "All newly-trained [VI 헨셸] units [in this city] receive the [경사 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:직사",
+                "cost": 1
+                "uniques": [
+                "Provides [-2] [Aluminum]",
+                "All newly-trained [VI 헨셸] units [in this city] receive the [직사 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:반응",
+                "cost": 1
+                "gold": -4,
+                "uniques": [
+                "Provides [-4] [Iron]",
+                "All newly-trained [VI 헨셸] units [in this city] receive the [반응 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:알루미늄",
+                "cost": 1
+                "gold": -4,
+                "uniques": [
+                "Provides [-4] [Aluminum]",
+                "All newly-trained [VI 헨셸] units [in this city] receive the [알루미늄 합금 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "헨셸 건조",
+                "cost": 250,
+                "requiredTech": "핵융합 동력",
+                "uniques": [
+                "Only available <if [헨셸 장갑 설정] is constructed>",
+                "Only available <if [헨셸 무기 설정] is constructed>",
+                "Only available <if [헨셸 동력 설정] is constructed>",
+                ]
+        },
+        {
+                "name": "포르쉐 설계",
+                "cost": 300,
+                "requiredTech": "레일건",
+                "requiredBuilding": "보행병기 결전 연구소",
+                "uniques": [
+                "Comment [레일건 결전병기 , VI 포르쉐 설계를 시작합니다.]",
+                "Blueprints"]
+        },
+        {
+                "name": "포르쉐 동력 설정",
+                "cost": 200,
+                "requiredTech": "레일건",
+                "requiredBuilding": "포르쉐 설계",
+                "uniques": [
+                "Triggers a [포르쉐-엔진] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "엔진;핵융합;포르쉐",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [핵융합 동력] promotion",
+                "Unbuildable",
+                "Provides [-2] [Uranium]",
+                "Unsellable","엔진"]
+        },
+        {
+                "name": "엔진;가솔린;포르쉐",
+                "cost": 1
+                "gold": -1,
+                "uniques": [
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [가솔린 동력] promotion",
+                "Unbuildable","Unsellable","엔진"
+                "Provides [-1] [Oil]",]
+        },
+        {
+                "name": "엔진;디젤;포르쉐",
+                "cost": 1
+                "gold": -2,
+                "uniques": [
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [디젤 동력] promotion",
+                "Unbuildable","Unsellable","엔진",
+                "Provides [-2] [Oil]",]
+        },
+        {
+                "name": "엔진;원자력;포르쉐",
+                "cost": 1
+                "gold": -2,
+                "uniques": [
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [원자력 동력] promotion",
+                "Unbuildable","Unsellable","엔진",
+                "Provides [-1] [Uranium]",]
+        },
+        {
+                "name": "포르쉐 무기 설정",
+                "cost": 200,
+                "requiredTech": "레일건",
+                "requiredBuilding": "포르쉐 설계",
+                "uniques": [
+                "Triggers a [포르쉐-무기] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "무기;레일건;포르쉐",
+                "cost": 1
+                "gold": -3,
+                "uniques": ["All newly-trained [VI 포르쉐] units [in this city] receive the [레일건] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;기관포;포르쉐",
+                "cost": 1
+                "uniques": ["All newly-trained [VI 포르쉐] units [in this city] receive the [기관포] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;레이저;포르쉐",
+                "cost": 1
+                "gold": -3,
+                "uniques": ["All newly-trained [VI 포르쉐] units [in this city] receive the [광선병기] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;함포;포르쉐",
+                "cost": 1
+                "gold": -3,
+                "uniques": ["All newly-trained [VI 포르쉐] units [in this city] receive the [19인치 함포] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;미사일;포르쉐",
+                "cost": 1
+                "gold": -2,
+                "uniques": ["All newly-trained [VI 포르쉐] units [in this city] receive the [미사일] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "포르쉐 장갑 설정",
+                "cost": 200,
+                "requiredTech": "레일건",
+                "requiredBuilding": "포르쉐 설계",
+                "uniques": [
+                "Triggers a [포르쉐-장갑] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "장갑:경사;포르쉐",
+                "cost": 1
+                "gold": -1,
+                "uniques": [
+                "Provides [-2] [Iron]",
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [경사 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:직사;포르쉐",
+                "cost": 1
+                "uniques": [
+                "Provides [-2] [Aluminum]",
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [직사 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:반응;포르쉐",
+                "cost": 1
+                "gold": -4,
+                "uniques": [
+                "Provides [-4] [Iron]",
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [반응 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:알루미늄;포르쉐",
+                "cost": 1
+                "gold": -4,
+                "uniques": [
+                "Provides [-4] [Aluminum]",
+                "All newly-trained [VI 포르쉐] units [in this city] receive the [알루미늄 합금 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "포르쉐 건조",
+                "cost": 400,
+                "requiredTech": "핵융합 동력",
+                "uniques": [
+                "Only available <if [포르쉐 장갑 설정] is constructed>",
+                "Only available <if [포르쉐 무기 설정] is constructed>",
+                "Only available <if [포르쉐 동력 설정] is constructed>",
+                ]
+        },
+        {
+                "name": "라테 설계",
+                "cost": 300,
+                "requiredTech": "광자포",
+                "requiredBuilding": "보행병기 결전 연구소",
+                "uniques": [
+                "Comment [지상전함 VII 라테 설계를 시작합니다.]",
+                "Blueprints"]
+        },
+        {
+                "name": "라테 동력 설정",
+                "cost": 300,
+                "requiredTech": "광자포",
+                "requiredBuilding": "라테 설계",
+                "uniques": [
+                "Triggers a [라테-엔진] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "엔진;핵융합;라테",
+                "cost": 1
+                "gold": -7,
+                "uniques": [
+                "All newly-trained [라테] units [in this city] receive the [핵융합 동력] promotion",
+                "Unbuildable",
+                "Provides [-2] [Uranium]",
+                "Unsellable","엔진"]
+        },
+        {
+                "name": "엔진;가솔린;라테",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [라테] units [in this city] receive the [가솔린 동력] promotion",
+                "Unbuildable","Unsellable","엔진"
+                "Provides [-1] [Oil]",]
+        },
+        {
+                "name": "엔진;디젤;라테",
+                "cost": 1
+                "gold": -5,
+                "uniques": [
+                "All newly-trained [라테] units [in this city] receive the [디젤 동력] promotion",
+                "Unbuildable","Unsellable","엔진",
+                "Provides [-2] [Oil]",]
+        },
+        {
+                "name": "엔진;원자력;라테",
+                "cost": 1
+                "gold": -5,
+                "uniques": [
+                "All newly-trained [라테] units [in this city] receive the [원자력 동력] promotion",
+                "Unbuildable","Unsellable","엔진",
+                "Provides [-1] [Uranium]",]
+        },
+        {
+                "name": "라테 무기 설정",
+                "cost": 300,
+                "requiredTech": "광자포",
+                "requiredBuilding": "라테 설계",
+                "uniques": [
+                "Triggers a [라테-무기] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "무기;레일건;라테",
+                "cost": 1
+                "gold": -4,
+                "uniques": ["All newly-trained [라테] units [in this city] receive the [레일건] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;기관포;라테",
+                "cost": 1
+                "uniques": ["All newly-trained [라테] units [in this city] receive the [기관포] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;레이저;라테",
+                "cost": 1
+                "gold": -3,
+                "uniques": ["All newly-trained [라테] units [in this city] receive the [광선병기] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;함포;라테",
+                "cost": 1
+                "gold": -5,
+                "uniques": ["All newly-trained [라테] units [in this city] receive the [19인치 함포] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "무기;미사일;라테",
+                "cost": 1
+                "gold": -4,
+                "uniques": ["All newly-trained [라테] units [in this city] receive the [미사일] promotion","Unbuildable","Unsellable","무기"]
+        },
+        {
+                "name": "라테 장갑 설정",
+                "cost": 300,
+                "requiredTech": "광자포",
+                "requiredBuilding": "라테 설계",
+                "uniques": [
+                "Triggers a [라테-장갑] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "장갑:경사;라테",
+                "cost": 1
+                "gold": -1,
+                "uniques": [
+                "Provides [-2] [Iron]",
+                "All newly-trained [라테] units [in this city] receive the [경사 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:직사;라테",
+                "cost": 1
+                "uniques": [
+                "Provides [-2] [Aluminum]",
+                "All newly-trained [라테] units [in this city] receive the [직사 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:반응;라테",
+                "cost": 1
+                "gold": -5,
+                "uniques": [
+                "Provides [-4] [Iron]",
+                "All newly-trained [라테] units [in this city] receive the [반응 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "장갑:알루미늄;라테",
+                "cost": 1
+                "gold": -6,
+                "uniques": [
+                "Provides [-4] [Aluminum]",
+                "All newly-trained [라테] units [in this city] receive the [알루미늄 합금 장갑] promotion","Unbuildable","Unsellable","장갑"]
+        },
+        {
+                "name": "라테 건조",
+                "cost": 500,
+                "requiredTech": "핵융합 동력",
+                "uniques": [
+                "Only available <if [라테 장갑 설정] is constructed>",
+                "Only available <if [라테 무기 설정] is constructed>",
+                "Only available <if [라테 동력 설정] is constructed>",
+                ]
+        },
+        /*Turret Customs*/
+        	
 ]

@@ -81,4 +81,74 @@
 		"uniques": ["[+100]% Strength <vs cities> <when attacking>","[+1] Range"],
 		"unitTypes": ["VI 포르쉐"]
 	},
+    {
+		"name": "핵융합 동력",
+		"uniques": ["[+2] Movement",
+        "[+10] HP when healing",],
+	},
+    {
+		"name": "디젤 동력",
+		"uniques": ["[+2] Movement",
+        ],
+	},
+    {
+		"name": "가솔린 동력",
+		"uniques": ["[+1] Movement",
+        ],
+	},
+    {
+		"name": "원자력 동력",
+		"uniques": ["[+1] Movement",
+        "[+10] HP when healing",],
+	},
+    {
+		"name": "레일건",
+		"uniques": [
+        "[+20]% Strength <when attacking>",
+        "[-10]% Strength <when defending>"],
+	},
+    {
+		"name": "기관포",
+		"uniques": ["[-30]% Strength<when attacking>",
+        "[2] additional attacks per turn",
+        ],
+	},
+    {
+		"name": "함포",
+		"uniques": [
+        "[+40]% Strength <when attacking>",
+        "[-20]% Strength <when defending>",
+        "[-2] Movement",
+        ],
+	},
+    {
+		"name": "미사일",
+		"uniques": [
+        "[+10]% Strength<when attacking>",
+        "[+20]% Strength <vs [전차] units> <when attacking>"
+        "[+30]% Strength <vs cities> <when attacking>"
+        ],
+	},
+    {
+        "name": "반응 장갑",
+        "uniques": ["[+30]% Strength<when defending>",
+        ],
+    },
+    {
+        "name": "알루미늄 합금 장갑",
+        "uniques": ["[+20]% Strength<when defending>",
+        "[+20]% Strength<when attacking>"]
+    },
+    {
+        "name": "광선병기",
+        "uniques": [
+        "[+3] Range"]
+    },
+    {
+        "name": "19인치 함포",
+        "uniques": [
+        "[+1] Range"
+        "[+10]% Strength <when attacking>",
+        "[-2] Movement",]
+    },
 ]

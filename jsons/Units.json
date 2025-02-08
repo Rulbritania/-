@@ -72,9 +72,9 @@
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+40]% Strength <vs [Land] units>",
+            "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+30]% Strength <when attacking>"
+            "[+10]% Strength <when attacking>"
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -84,18 +84,16 @@
         "uniqueTo": "복마전",
         "unitType": "보행병기",
         "movement": 6,
-        "strength": 100,
-        "cost": 900,
+        "strength": 90,
+        "cost": 700,
         "requiredTech": "현대 전차",
         "requiredResource": "Oil",
         "uniques": [
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>",
+            "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+20]% Strength <when attacking>",
-            "Consumes [2] [Oil]",
-            "[-20]% Strength <vs [비행] units> <when defending>"
+            "[+10]% Strength <when attacking>"
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -123,32 +121,32 @@
         "name": "VI 헨셸",
         "uniqueTo": "복마전",
         "unitType": "VI 헨셸",
-        "movement": 4,
-        "strength": 600,
+        "movement": 3,
+        "strength": 450,
         "cost": 2550,
         "requiredTech": "핵융합 동력",
+        "requiredResource": "Uranium",
         "uniques": [
         "Limited to [1] per Civilization", 
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+20]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+10]% Strength <when attacking>",
-            "Consumes [2] [Uranium]",
+            "Only available <if [헨셸 건조] is constructed>",
         ],
         "promotions":["자아를 가진 기계"],
-        "attackSound": "tankshot"
+        "attackSound": "gdrAttack"
     },
 {
         "name": "VI 포르쉐",
         "uniqueTo": "복마전",
         "unitType": "VI 포르쉐",
         "movement": 3,
-        "strength": 300,
-        "rangedStrength": 300,
-        "range": 3,
+        "strength": 230,
+        "rangedStrength": 250,
+        "range": 2,
         "cost": 3000,
         "requiredTech": "레일건",
+        "requiredResource": "Uranium",
         "uniques": [
         "Limited to [1] per Civilization", 
             "Can move after attacking",
@@ -157,7 +155,6 @@
             "Never appears as a Barbarian unit",
             "[+10]% Strength <when attacking>",
             "[+100]% Strength <vs cities> <when attacking>",
-            "Consumes [2] [Uranium]",
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -167,7 +164,7 @@
         "uniqueTo": "복마전",
         "unitType": "VI 포르쉐",
         "movement": 2,
-        "strength": 900,
+        "strength": 750,
         "cost": 15000,
         "requiredTech": "광자포",
         "requiredResource": "Uranium",
@@ -177,7 +174,7 @@
             "Limited to [1] per Civilization", 
             "Can move after attacking",
             "No defensive terrain bonus",
-            "[+50]% Strength <vs [Land] units>",
+            "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
             "[+30]% Strength <when attacking>",
         ],

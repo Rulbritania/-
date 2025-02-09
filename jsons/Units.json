@@ -87,7 +87,6 @@
         "strength": 100,
         "cost": 900,
         "requiredTech": "현대 전차",
-        "requiredResource": "Oil",
         "uniques": [
         "Consumes [2] [Oil]",
         "Can move after attacking",

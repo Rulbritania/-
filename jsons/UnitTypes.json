@@ -9,6 +9,14 @@
         "movementType": "Land"
     },
     {
+        "name": "IV",
+        "movementType": "Land"
+    },
+    {
+        "name": "V",
+        "movementType": "Land"
+    },
+    {
         "name": "VI 헨셸",
         "movementType": "Land"
     },
@@ -19,6 +27,8 @@
     {
         "name": "비행",
         "movementType": "Air",
-        "uniques": ["Aircraft","[+50]% Strength <vs [보행병기] units> <when attacking>"]
+        "uniques": ["Aircraft","[+150]% Strength <vs [보행병기] units> <when attacking>"
+        ,"[+150]% Strength <vs [VI 헨셸] units> <when attacking>",
+        "[+150]% Strength <vs [VI 포르쉐] units> <when attacking>"]
     }
 ]   

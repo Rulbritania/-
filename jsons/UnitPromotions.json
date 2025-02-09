@@ -151,4 +151,29 @@
         "[+10]% Strength <when attacking>",
         "[-2] Movement",]
     },
+    {
+        "name": "발전된 장갑",
+        "uniques": ["[+20]% Strength<when defending>",],
+    },
+    {
+		"name": "발전된 동력",
+		"uniques": ["[+2] Movement",
+        ],
+	},
+    {
+        "name": "대공포",
+        "uniques": ["[+50]% Strength <vs [비행] units> <when defending>"],
+    },
+    {
+        "name": "4호 추가 부포",
+        "uniques": [
+        "[+10]% Strength <vs [Land] units>",
+        "[+20]% Strength <when attacking>"],
+    },
+    {
+        "name": "5호 추가 부포",
+        "uniques": [
+        "[+20]% Strength <vs [Land] units>",
+        "[+10]% Strength <when attacking>"],
+    },
 ]

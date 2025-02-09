@@ -63,7 +63,7 @@
     {
         "name": "IV",
         "uniqueTo": "복마전",
-        "unitType": "보행병기",
+        "unitType": "IV",
         "movement": 5,
         "strength": 75,
         "cost": 550,
@@ -82,14 +82,15 @@
 {
         "name": "V 판터",
         "uniqueTo": "복마전",
-        "unitType": "보행병기",
+        "unitType": "V",
         "movement": 6,
-        "strength": 90,
-        "cost": 700,
+        "strength": 100,
+        "cost": 900,
         "requiredTech": "현대 전차",
         "requiredResource": "Oil",
         "uniques": [
-            "Can move after attacking",
+        "Consumes [2] [Oil]",
+        "Can move after attacking",
             "No defensive terrain bonus",
             "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",

@@ -51,6 +51,106 @@
                 
                 ]
         },
+        {
+                "name": "4호 추가 설계",
+                "cost": 200,
+                "requiredTech": "서스펜션",
+                "requiredBuilding": "보행병기 결전 연구소",
+                "uniques": [
+                "Comment [ 대결전병기, IV 설계를 시작합니다.]",
+                "Triggers a [4호-개량] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "4호;장갑",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [IV] units [in this city] receive the [발전된 장갑] promotion",
+                "Unbuildable",
+                "Provides [-2] [Iron]",
+                "Unsellable","4호"]
+        },
+        {
+                "name": "4호;화력",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [IV] units [in this city] receive the [4호 추가 부포] promotion",
+                "Unbuildable",
+                "Provides [-2] [Oil]",
+                "Unsellable","4호"]
+        },
+        {
+                "name": "4호;엔진",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [IV] units [in this city] receive the [발전된 동력] promotion",
+                "Unbuildable",
+                "Provides [-2] [Oil]",
+                "Unsellable","4호"]
+        },
+        {
+                "name": "4호;대공포",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [IV] units [in this city] receive the [대공포] promotion",
+                "Unbuildable",
+                "Provides [-2] [Iron]",
+                "Unsellable","4호"]
+        },
+        {
+                "name": "5호 추가 설계",
+                "cost": 200,
+                "requiredTech": "현대 전차",
+                "requiredBuilding": "보행병기 결전 연구소",
+                "uniques": [
+                "Comment [ 대결전병기, V 판터 설계를 시작합니다.]",
+                "Triggers a [5호-개량] event <hidden from users>",
+                "Blueprints"]
+        },
+        {
+                "name": "5호;장갑",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [V] units [in this city] receive the [발전된 장갑] promotion",
+                "Unbuildable",
+                "Provides [-2] [Iron]",
+                "Unsellable","5호"]
+        },
+        {
+                "name": "5호;화력",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [V] units [in this city] receive the [5호 추가 부포] promotion",
+                "Unbuildable",
+                "Provides [-2] [Oil]",
+                "Unsellable","5호"]
+        },
+        {
+                "name": "5호;엔진",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [V] units [in this city] receive the [발전된 동력] promotion",
+                "Unbuildable",
+                "Provides [-2] [Oil]",
+                "Unsellable","5호"]
+        },
+        {
+                "name": "5호;대공포",
+                "cost": 1
+                "gold": -3,
+                "uniques": [
+                "All newly-trained [V] units [in this city] receive the [대공포] promotion",
+                "Unbuildable",
+                "Provides [-2] [Iron]",
+                "Unsellable","5호"]
+        },
         //        "requiredBuilding": "전자제품 연구소",
         {
                 "name": "헨셸 설계",

@@ -1,4 +1,125 @@
 [
+{
+                "name": "4호-개량",
+                "text": "4호 설계",
+                "uniques": [
+           //"Only available <when number of [turns] is greater than [5]>",
+           "unavailable <if [4호] is constructed>",
+        ],
+                "civilopediaText":[
+            {"extraImage":"개량", "imageSize":410},
+			{"text":"4호 추가개량을 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+           // {"extraImage":"동력원 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"동력원에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "추가 장갑",
+                                "uniques": [
+                                "Comment [방어력 +20%]",
+                                "Comment [철 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [4호;장갑] [in capital] <hidden from users>"
+                                //"Consumes [2] [uranium]"
+                                ]
+                        },
+                        {
+                                "text": "추가 화력",
+                                "uniques": [
+                                "Comment [지상 유닛 대항 +10% 공격시 +20%]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [4호;화력] [in capital] <hidden from users>"
+                                //"Consumes [1] [Oil]"
+                                ]
+                        }
+                        {
+                                "text": "추가 엔진",
+                                "uniques": [
+                                "Comment [이동력 2을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [4호;엔진] [in capital] <hidden from users>"
+                                //"Consumes [2] [Oil]"
+                                ]
+                        },
+                        {
+                                "text": "추가 대공포",
+                                "uniques": [
+                                "Comment [비행 대항 방어력 +50%]",
+                                "Comment [철 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [4호;대공포] [in capital] <hidden from users>"
+                               // "Consumes [1] [uranium]"
+                                ]
+                        },
+                ]
+        },
+        {
+                "name": "5호-개량",
+                "text": "5호 설계",
+                "uniques": [
+           //"Only available <when number of [turns] is greater than [5]>",
+           "unavailable <if [5호] is constructed>",
+        ],
+                "civilopediaText":[
+            {"extraImage":"개량", "imageSize":410},
+			{"text":"5호 추가개량을 시작합니다.", "centered":true, "header":2,"color": "#FB6B94"},
+			{"text":}
+           // {"extraImage":"동력원 설정을 시작합니다.", "imageSize":410},
+			{"text":}
+            {"text":}
+			{"text":"동력원에 따라 자원과 비용을 소모합니다.","color": "#F9FF8D"}
+		],
+        
+                "choices":[
+                        {
+                                "text": "추가 장갑",
+                                "uniques": [
+                                "Comment [방어력 +20%]",
+                                "Comment [철 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [5호;장갑] [in capital] <hidden from users>"
+                                //"Consumes [2] [uranium]"
+                                ]
+                        },
+                        {
+                                "text": "추가 화력",
+                                "uniques": [
+                                "Comment [지상 유닛 대항 +20% 공격시 +10%]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [5호;화력] [in capital] <hidden from users>"
+                                //"Consumes [1] [Oil]"
+                                ]
+                        }
+                        {
+                                "text": "추가 엔진",
+                                "uniques": [
+                                "Comment [이동력 2을 제공합니다.]",
+                                "Comment [석유 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [5호;엔진] [in capital] <hidden from users>"
+                                //"Consumes [2] [Oil]"
+                                ]
+                        },
+                        {
+                                "text": "추가 대공포",
+                                "uniques": [
+                                "Comment [비행 대랑 방어력 +50%]",
+                                "Comment [철 2개를 소모합니다.]",
+                                "Comment [유지비:3 골드]",
+                                "Gain a free [5호;대공포] [in capital] <hidden from users>"
+                               // "Consumes [1] [uranium]"
+                                ]
+                        },
+                ]
+        },
+        //설계
         {
                 "name": "헨셸-엔진",
                 "text": "헨셸 설계",

@@ -295,3 +295,10 @@ UnitIcons/라테
   orig: 300, 300
   offset: 0, 0
   index: -1
+BuildingIcons/자원 착취
+  rotate: false
+  xy: 300, 300
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

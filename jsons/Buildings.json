@@ -1,6 +1,23 @@
 
 [
 {
+        "name": "자원 착취",
+        "hurryCostModifier": 1,
+        "uniqueTo": "복마전",
+        "cost":1,
+        "maintenance":10,
+        "percentStatBonus": {"production": -40,"science": -30},
+        "happiness": -10,
+        "uniques": [
+            "Can only be built <in [Annexed] cities>",
+            "Provides [1] [Oil]",
+            "Provides [1] [Uranium]", 
+            "Provides [1] [Aluminum]",
+            "Provides [1] [Iron]",
+        ],
+        "requiredTech": "문화 발전"
+    },
+{
         "name": "복마전 작전실",
         "uniqueTo": "복마전",
         "replaces": "Palace",

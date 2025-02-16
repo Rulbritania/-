@@ -94,7 +94,7 @@
             "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
             "[+60]% Strength <when attacking>"
-            "[-60]% Strength <when attacking>"
+            "[-60]% Strength <when defending>"
             ,"[-30]% Strength <vs [비행] units> <when defending>",
         ],
         "promotions":["자아를 가진 기계"],
@@ -143,9 +143,9 @@
         "uniqueTo": "복마전",
         "unitType": "VI 포르쉐",
         "movement": 3,
-        "strength": 230,
-        "rangedStrength": 250,
-        "range": 2,
+        "strength": 250,
+        "rangedStrength": 270,
+        "range": 3,
         "cost": 3000,
         "requiredTech": "레일건",
         "requiredResource": "Uranium",

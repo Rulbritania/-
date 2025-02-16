@@ -93,7 +93,9 @@
             "No defensive terrain bonus",
             "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+10]% Strength <when attacking>"
+            "[+60]% Strength <when attacking>"
+            "[-60]% Strength <when attacking>"
+            ,"[-30]% Strength <vs [비행] units> <when defending>",
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"

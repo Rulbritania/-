@@ -27,7 +27,9 @@
     {
         "name": "비행",
         "movementType": "Air",
-        "uniques": ["Aircraft","[+150]% Strength <vs [보행병기] units> <when attacking>"
+        "uniques": [
+        "Aircraft","[+150]% Strength <vs [보행병기] units> <when attacking>",
+        "Aircraft","[+150]% Strength <vs [IV] units> <when attacking>"
         ,"[+150]% Strength <vs [VI 헨셸] units> <when attacking>",
         "[+150]% Strength <vs [VI 포르쉐] units> <when attacking>"]
     }

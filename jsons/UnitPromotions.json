@@ -162,18 +162,18 @@
 	},
     {
         "name": "대공포",
-        "uniques": ["[+50]% Strength <vs [비행] units> <when defending>"],
+        "uniques": ["[+60]% Strength <vs [비행] units> <when defending>"],
     },
     {
         "name": "4호 추가 부포",
         "uniques": [
-        "[+10]% Strength <vs [Land] units>",
-        "[+20]% Strength <when attacking>"],
+        "[+20]% Strength <vs [Land] units>",
+        "[+30]% Strength <when attacking>"],
     },
     {
         "name": "5호 추가 부포",
         "uniques": [
-        "[+20]% Strength <vs [Land] units>",
-        "[+10]% Strength <when attacking>"],
+        "[+30]% Strength <vs [Land] units>",
+        "[+20]% Strength <when attacking>"],
     },
 ]

@@ -84,7 +84,7 @@
         "uniqueTo": "복마전",
         "unitType": "V",
         "movement": 6,
-        "strength": 100,
+        "strength": 110,
         "cost": 900,
         "requiredTech": "현대 전차",
         "uniques": [
@@ -93,9 +93,8 @@
             "No defensive terrain bonus",
             "[+30]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+60]% Strength <when attacking>"
-            "[-60]% Strength <when defending>"
-            ,"[-30]% Strength <vs [비행] units> <when defending>",
+            "[+30]% Strength <when attacking>"
+            "[-30]% Strength <vs [비행] units> <when defending>"
         ],
         "promotions":["자아를 가진 기계"],
         "attackSound": "tankshot"
@@ -155,7 +154,9 @@
             "No defensive terrain bonus",
             "[+20]% Strength <vs [Land] units>",
             "Never appears as a Barbarian unit",
-            "[+10]% Strength <when attacking>",
+            "[+60]% Strength <when attacking>"
+            "[-60]% Strength <when defending>"
+            ,"[-30]% Strength <vs [비행] units> <when defending>",
             "[+100]% Strength <vs cities> <when attacking>",
         ],
         "promotions":["자아를 가진 기계"],
